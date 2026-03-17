@@ -11,7 +11,7 @@ import { Vehicle } from "./Vehicle";
 import { InvoiceArticle } from "./InvoiceArticle";
 
 @Index("fk_invoice_vehicle_idx", ["vehicleId"], {})
-@Entity("invoice", { schema: "fir_rs_2025" })
+@Entity("invoice")
 export class Invoice {
   @PrimaryGeneratedColumn({ type: "int", name: "invoice_id", unsigned: true })
   invoiceId: number;

@@ -78,7 +78,7 @@ Aplikacija koristi `Navigation Guards` kako bi osigurala da:
 ## 5. Instalacija i Pokretanje
 
 ### 1. Korak: Baza Podataka
-Kreirajte bazu podataka (npr. `fir_rs_2025`) u vašem MariaDB/MySQL okruženju.
+Kreirajte bazu podataka (npr. `projekatrva`) u vašem MariaDB/MySQL okruženju.
 
 ### 2. Korak: Backend
 1. Navigirajte u direktorijum `backend/`.
@@ -89,7 +89,7 @@ Kreirajte bazu podataka (npr. `fir_rs_2025`) u vašem MariaDB/MySQL okruženju.
    DATABASE_PORT=3306
    DATABASE_USER=vas_korisnik
    DATABASE_PASSWORD=vasa_lozinka
-   DATABASE_NAME=fir_rs_2025
+   DATABASE_NAME=projekatrva
    SERVER_PORT=4800
    JWT_SECRET=neka_tajna_rec
    ```

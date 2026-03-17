@@ -1,7 +1,7 @@
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 import { InvoiceArticle } from "./InvoiceArticle";
 
-@Entity("article", { schema: "fir_rs_2025" })
+@Entity("article")
 export class Article {
   @PrimaryGeneratedColumn({ type: "int", name: "article_id", unsigned: true })
   articleId: number;

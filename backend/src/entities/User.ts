@@ -1,7 +1,7 @@
 import { Column, Entity, Index, PrimaryGeneratedColumn } from "typeorm";
 
 @Index("uq_user_email", ["email"], { unique: true })
-@Entity("user", { schema: "fir_rs_2025" })
+@Entity("user")
 export class User {
   @PrimaryGeneratedColumn({ type: "int", name: "user_id", unsigned: true })
   userId: number;

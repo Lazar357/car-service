@@ -13,7 +13,7 @@ import { Model } from "./Model";
 
 @Index("fk_vehicle_client_idx", ["clientId"], {})
 @Index("fk_vehicle_model_idx", ["modelId"], {})
-@Entity("vehicle", { schema: "fir_rs_2025" })
+@Entity("vehicle")
 export class Vehicle {
   @PrimaryGeneratedColumn({ type: "int", name: "vehicle_id", unsigned: true })
   vehicleId: number;
